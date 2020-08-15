@@ -2,9 +2,10 @@
   
 ## Raycasting Engine for the STM32  
 
-Display: SSD1351 Based Waveshare 1.5" RGB OLED  
-Core:    STM32Duino  
 Board:   STM32-NucleoL432KC  
+Display: SSD1351 Based Waveshare 1.5" RGB OLED  
+  
+Compiles on Arduino with the STM32Duino core
   
 Wiring  
   
