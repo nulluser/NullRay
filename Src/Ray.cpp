@@ -100,15 +100,15 @@ inline void RayEngine::render_column(Display &display, uint8_t x, uint16_t size,
 }
 
 // Cast ray into map
-inline uint8_t cast_ray(World &world, float &vert_x, float &vert_y, float vert_dx, float vert_dy)
+inline uint8_t cast_ray(World &world, float &x, float &y, float dx, float dy)
 {
 	uint8_t cell;
 	
-	// Check for vertical intersections
-	while((cell = world.get_world(vert_x, vert_y)) == 0)
+	// Check for intersections
+	while((cell = world.get_world(x, y)) == 0)
 	{
-		vert_x += vert_dx;
-		vert_y += vert_dy;
+		x += dx;
+		y += dy;
 	}
 	
 	return cell;
