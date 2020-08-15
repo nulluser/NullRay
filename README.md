@@ -7,6 +7,11 @@ Display: SSD1351 Based Waveshare 1.5" RGB OLED
   
 Compiles on Arduino with the STM32Duino core
   
+Movement is over the serial interface  
+ WS - Move  
+ AD - Turn  
+ QE - Strafe  
+  
 Wiring  
   
 * MOSI_PIN  PB5  // (D11 Pin)  
