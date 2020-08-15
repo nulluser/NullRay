@@ -5,7 +5,9 @@
 Board:   STM32-NucleoL432KC  
 Display: SSD1351 Based Waveshare 1.5" RGB OLED  
   
-Compiles on Arduino with the STM32Duino core
+DMA Based SPI interface to display. ~50 FPS.
+  
+Compiles on Arduino with the STM32Duino core  
   
 Movement is over the serial interface  
  WS - Move  
@@ -21,3 +23,5 @@ Wiring
 * RST_PIN   PA3  // (A2 Pin)  
   
 [Video](https://youtu.be/PysdKwrtMgs)  
+  
+  
