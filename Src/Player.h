@@ -1,8 +1,8 @@
 /*
-	DMA based SPI
+	STM32 Raycast Engine
 	(C) 2020 nulluser@gmail.com
 
-	File: DMASPI.h
+	File: Player.h
 */
 
 #ifndef PLAYER_H

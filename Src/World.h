@@ -1,7 +1,7 @@
 /*
-	DMA based SPI
+	STM32 Raycast Engine
 	(C) 2020 nulluser@gmail.com
-
+	
 	File: World.h
 */
 

@@ -1,3 +1,10 @@
+/*
+	STM32 Raycast Engine
+	(C) 2020 nulluser@gmail.com
+
+	File: TextureData.h
+*/
+
 #ifndef TEXTURE_DATA
 #define TEXTURE_DATA
 
